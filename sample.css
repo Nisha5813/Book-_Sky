@@ -1,0 +1,172 @@
+
+
+
+body{
+    background-color:black;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+#navbar{
+    background-color:rgb(247, 12, 51);
+    height:50px;
+    width:100%;
+    padding-left:30px;
+    padding-top:30px;
+    position:absolute;
+    z-index:-1;
+}
+#popblack{
+    background-color:black;
+    width:100%;
+    height:100%;
+    opacity:0.7;
+    position:fixed;
+    z-index:2;
+    display:none;
+    
+
+
+    }
+#popup{
+    background-color:black;
+    width:400px;
+    height:480px;
+    position:fixed;
+    margin-top:90px;
+    margin-left:35%;
+    z-index:2;
+    color:aliceblue;
+    display:none;
+    border-radius:5px;
+    border-color:rgba(100, 11, 11, 0.596);
+    border-style:solid;
+    border-width :1px;
+}
+#popup:hover{
+    box-shadow:30px;
+}
+#plus{
+    color:black;
+    background-color:rgb(247, 12, 51);
+    border-radius:100%;
+    margin-left:90%;
+    margin-top:30%;
+    position:fixed;
+    height:100px;
+    width:100px;
+    outline:none;
+    border:none;
+    z-index:1;
+
+}
+#plus:hover {
+  /* horizontal | vertical | blur | color */
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  
+  /* Optional: slightly lifts the button up for a better 3D effect */
+  transform: translateY(-2px);
+}
+#plus:active{
+    box-shadow:none;
+    transform:none;
+}
+#collect{
+    padding:10px;
+    margin-left:10px;
+    color:rgb(134, 18, 33);
+}
+#collect input{
+    width:300px;
+    color:rgb(255,255,255);
+    background-color:transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-width:1px;
+    border-color:rgb(247, 12, 51);
+    outline:none;
+}
+#collect textarea{
+    color:rgb(255,255,255);
+    background-color:transparent;
+    border:1px solid rgb(247, 12, 51);
+    width:350px;
+    height:150px;
+    outline:none;
+    overflow:auto;
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+    resize:none;
+}
+#collect textarea::-webkit-scrollbar{
+    display:none;
+}
+
+#collect button{
+    background-color:rgb(247, 12, 51);
+    color:black;
+    border:none;
+    margin-top:20px;
+    height:30px;
+    width:100px;
+    margin-left:40px;
+    border-radius:10px;
+}
+
+#container button:hover {
+  /* horizontal | vertical | blur | color */
+  box-shadow: 0px 8px 10px rgba(20, 20, 20, 0.712);
+  
+  /* Optional: slightly lifts the button up for a better 3D effect */
+  transform: translateY(-2px);
+}
+#contain button:active{
+    box-shadow:none;
+}
+#container{
+    position:absolute;
+    margin-top:100px;
+    margin-left:30px;
+}
+.part{
+    background-color:rgb(0, 0, 0);
+    padding:1px;
+    border-radius:5px; 
+    width:300px;
+    display:inline-block;
+    margin-left:20px;
+    margin-bottom:20px;
+    z-index:0;
+    border-color:rgba(114, 48, 57, 0.336);
+    border-style:solid;
+    border-width: 1px;
+}
+.part h3{
+    margin-left:10px;
+    color:rgb(247, 12, 51);
+}
+.part h4,p{
+    color:white;
+    margin-left:10px;
+}
+.part button{
+    background-color:rgb(247, 12, 51);
+    color:black;
+    border:none;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+}
+.part button:hover{
+  /* horizontal | vertical | blur | color */
+  box-shadow: 0px 8px 10px rgba(228, 221, 221, 0.712);
+  
+  /* Optional: slightly lifts the button up for a better 3D effect */
+  transform: translateY(-2px);
+}
+.part button:active{
+    box-shadow:none;
+}
